@@ -11,3 +11,4 @@ import scrapy
 class KODItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
+    lit = scrapy.Field()
